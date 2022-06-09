@@ -13,6 +13,8 @@
     "rules": {
         "no-console":"off",
         "quotes": ["error", "double"],
-        "no-underscore-dangle": ["error", {"allowAfterThis": true}]
+        "no-underscore-dangle": ["error", {"allowAfterThis": true}],
+        "object-curly-newline": "off",
+        "comma-dangle": ["error", "only-multiline"]
     }
 }

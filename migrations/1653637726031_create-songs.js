@@ -25,13 +25,13 @@ exports.up = (pgm) => {
       notNull: true,
     },
     duration: "integer",
-    albumId: "varchar(50)",
-    createdAt: {
+    album_id: "varchar(50)",
+    created_at: {
       type: "timestamp",
       notNull: true,
       default: pgm.func("current_timestamp"),
     },
-    updatedAt: {
+    updated_at: {
       type: "timestamp",
       notNull: true,
       default: pgm.func("current_timestamp"),
